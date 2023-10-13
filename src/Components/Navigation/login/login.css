@@ -1,0 +1,152 @@
+.container{
+  margin: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+  }
+
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 15px;
+    font-size:15px;
+    height:22px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .submit {
+    display: block;
+    padding: 15px;
+    font-size:15px;
+    height:52px;
+    background-color: orange;
+    color: #ffffff;
+    width: 332px;
+    font-weight: 500;
+    border: 1px solid orange;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .signup-link {
+    color: #6B7280;
+    font-size: 15px;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+    color: orange;
+    font-size: 16px;
+  }
+
+  @media all and (max-width:769px){
+
+    .form{
+      width:330px;
+    }
+    .form-title{
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .input-container input{
+      padding: 12px;
+      width:290px;
+      height:21px;
+      font-size: 12px;
+    }
+    .submit{
+      width:316px;
+      height:46px;
+    }
+    .signup-link{
+      font-size: 14px;
+    }
+    .signup-link a {
+    font-size: 15px;
+    }
+  } 
+
+  @media all and (max-width:426px){
+
+    .form{
+      width:310px;
+    }
+    .form-title{
+      font-size: 17px;
+      line-height: 20px;
+    }
+    .input-container input{
+      padding: 10px;
+      width:280px;
+      height:20px;
+      font-size: 12px;
+    }
+    .submit{
+      width:300px;
+      height:40px;
+    }
+    .signup-link{
+      font-size: 13px;
+    }
+    .signup-link a {
+    font-size: 14px;
+    }
+  } 
+
+  @media all and (max-width:321px){
+    .container{
+      margin: 10px;
+    }
+    .form{
+      width:280px;
+    }
+    .form-title{
+      font-size: 15px;
+      line-height: 18px;
+    }
+    .input-container input{
+      padding: 10px;
+      width:240px;
+      height:16px;
+      font-size: 11px;
+    }
+    .submit{
+      width:260px;
+      height:36px;
+    }
+    .signup-link{
+      font-size: 11px;
+    }
+    .signup-link a {
+    font-size: 12px;
+    }
+  } 

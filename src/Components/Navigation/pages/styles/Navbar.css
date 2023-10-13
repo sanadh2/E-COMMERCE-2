@@ -1,0 +1,58 @@
+.main{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+}
+.name{
+    font-size: 30px;
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.main a{
+    color: black;
+}
+.nav a,.nav a:active,.nav a:focus{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size:20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 50px;
+    mix-blend-mode:darken;
+}
+
+@media all and (max-width:768px){
+    .name{
+        font-size:22px;
+    }
+    a,a:active, a:focus{
+        font-size:16px;
+    }
+}
+@media all and (max-width:425px) {
+    .name{
+        font-size: 17px;
+    }
+    a,a:active, a:focus{
+        font-size:12px;
+    }
+}
+@media all and (max-width:320px){
+    .name{
+        font-size: 15px;  
+    }
+    a,a:active, a:focus{
+        font-size:10px;
+        
+    }
+}
